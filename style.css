@@ -1,11 +1,21 @@
+html {
+  font-family: sans-serif, Roboto;
+  color: #EFEFEF;
+}
+
 body {
   display: flex;
   flex-direction: column;
   align-items: center;
 
-  font-family: sans-serif, Roboto;
   background-color: #2E3559;
-  color: #EFEFEF;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
 }
 
 h1 {
@@ -18,4 +28,14 @@ img {
   padding: 20px;
   border-radius: 10px;
   opacity: 75%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+a {
+  color: #fee389;
 }
